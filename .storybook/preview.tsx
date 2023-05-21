@@ -1,6 +1,7 @@
 import type { Preview } from "@storybook/react";
-import React from 'react';
+
 import GlobalStyes from '../src/styles/global'
+import React from "react";
 
 const preview: Preview = {
   parameters: {
@@ -18,7 +19,7 @@ const preview: Preview = {
         <GlobalStyes />
         <Story />
       </>
-    ),
+    )
   ],
 };
 
